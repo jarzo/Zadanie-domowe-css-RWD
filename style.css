@@ -1,3 +1,4 @@
+/*
 *
 {
 	box-sizing: border-box;
@@ -26,33 +27,131 @@ h1,h2
 {
 	color: #fff;
 	line-height: 50px;
+	font-family: verdana;
 }
+*/
 
 
-@media all and (min-width:1170px) 
+/*@media all and (min-width:1170px)
 {
 	
 	.picture
 	{
 		height: 100%;
-		background-size: 100%;
+		background-size:cover;
+		background-position: center;
 	}
-}
+} 
 
 @media (min-width:992px) and (max-width:1170px)
 {
 	
 	.picture
 	{
-		background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-2.jpg);
-		height: 70%;
+		background-image:url(zadanie-domowe-rwd-materialy/obrazy/man-2.jpg);
+		height: 70vh;
+		width: 100%;
+		background-size:cover;
+		background-position: center;
+		position:relative;
 	}
 }
 
 @media (max-width:992px)
 {
 	.picture
-	{
-		height:50%;
+	{ 
+		background-image:url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        position: relative;
 	}
 }
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+
+h2
+{
+    margin:0;
+}
+.picture{
+    
+    background-image:url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
+    background-position: center;
+    background-size: cover;
+    top:0px;
+    height:100vh;
+    position: relative;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+
+
+.text{
+    position: absolute;
+    left: 3%;
+    top: 42%;
+    font-family: verdana;
+    }
+@media (min-width: 992px)and (max-width: 1170px){
+    .picture {
+        
+        background-image:url(zadanie-domowe-rwd-materialy/obrazy/man-2.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 75vh;
+        position: relative;
+        text-align: right;
+    }
+    
+    .text{
+        position: absolute;
+        font-size: 0.7em;
+        top:30%;
+        right:5%;
+        transform: translateX(100%);
+       transform: translateY(-110%);
+       
+    }
+}
+
+@media (max-width: 992px){
+    .picture {
+        background-image:url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        position: relative;
+    }
+    
+    .text{
+        color: #000;
+        position: absolute;
+        top: 100%;
+        left:10%;
+        right:10%;
+        font-size: 0.8em;
+        
+    }
+    
+}
+
+
+
+
