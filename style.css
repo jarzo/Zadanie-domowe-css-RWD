@@ -1,4 +1,4 @@
-/*
+
 *
 {
 	box-sizing: border-box;
@@ -29,10 +29,10 @@ h1,h2
 	line-height: 50px;
 	font-family: verdana;
 }
-*/
 
 
-/*@media all and (min-width:1170px)
+
+@media all and (min-width:1170px)
 {
 	
 	.picture
@@ -46,7 +46,7 @@ h1,h2
 @media (min-width:992px) and (max-width:1170px)
 {
 	
-	.picture
+	header.picture
 	{
 		background-image:url(zadanie-domowe-rwd-materialy/obrazy/man-2.jpg);
 		height: 70vh;
@@ -70,8 +70,9 @@ h1,h2
         position: relative;
 	}
 }
-*/
 
+
+/*
 *{
     box-sizing: border-box;
 }
@@ -155,3 +156,4 @@ h2
 
 
 
+*/
